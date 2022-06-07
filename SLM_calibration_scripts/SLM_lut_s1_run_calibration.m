@@ -35,7 +35,7 @@ ops.PixelValue = 0;
 ops.DAQ_num_sessions = 200;
 
 % ops.lut_correction_fname = 'photodiode_lut_940_slm5221_10_10_21_right_half_sub_region_corr.mat';
-ops.lut_correction_fname = 'photodiode_lut_1064_slm5221_10_10_21_left_half_sub_region_interp_corr.mat';
+ops.lut_correction_fname = 'photodiode_lut_1064_slm5221_10_10_21_left_half_sub_region_interp_corr.mat';  % []; To be left empty if no previous calibration has been performed
 
 slm_roi = 'left_half'; % 'full' 'left_half'(1064) 'right_half'(940)
 
